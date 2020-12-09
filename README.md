@@ -25,7 +25,8 @@ Add Python packages, Jupyter Lab extensions, and Linux packages at run time. Pyt
 
 _Example_: In requirements.txt, we have added `httpx` and in packages.txt, `telnet`. These requirements will be installed at run time. Try open and paste `telnet towel.blinkenlights.nl` on the terminal after starting dupyter. 
 
-## Machine Learning Libraries
+## Preloaded for ML and Data Science Packages
+#### Machine Learning Libraries
 - numpy -- the heart of scientific computing in Python
 - scipy -- collection of tools for mathematics, science, and engineering
 - sympy -- a Python library for symbolic mathematics
@@ -35,14 +36,14 @@ _Example_: In requirements.txt, we have added `httpx` and in packages.txt, `teln
 - pandas -- high-performance, easy-to-use data structures
 
     
-## Visualization 
+#### Visualization 
 - matplotlib -- comprehensive library for creating static, animated, and interactive visualizations in Python
 - seaborn -- statistical data visualization tools
 - plotly -- interactive and beautiful data vizulation tools
 - bokeh -- yet another interactive and beautiful data vizulation tools
 
 
-## Tools
+#### Tools
 - pytest -- best way to write and run unit tests.
 - ipython -- a rich and powerful interactive shell 
 - ipywidgets -- framework to provide eventful python objects that have a representation in the browser
