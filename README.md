@@ -8,7 +8,7 @@ I am good at breaking my Python environments. This is the nature of ML and data 
 
 ## Credit
 
-Dupyter builds on top of [Alexander Malic's genius docker packaging of Jupyter](https://github.com/amalic/Jupyterlab). Without his it, there would not have been Dupyter.
+Dupyter builds on top of [Alexander Malic's genius docker packaging of Jupyter](https://github.com/amalic/Jupyterlab). Without it, there would be no Dupyter as it is.
 
 ## Getting Started
 Clone. Run. Easy.
