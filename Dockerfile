@@ -1,4 +1,4 @@
- FROM python:3.8
+FROM python:3.8
 
 RUN git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it && \
     bash ~/.bash_it/install.sh --silent
@@ -17,16 +17,15 @@ RUN pip install --upgrade pip && \
     bokeh \
     numpy \
     scipy \
-    numexpr \
-    patsy \
     scikit-learn \
     scikit-image \
+    simpy \
     matplotlib \
     ipython \
     pandas \
     sympy \
     seaborn \
-    nose \
+    pytest \
     jupyterlab-git && \
     jupyter labextension install \
     @jupyter-widgets/jupyterlab-manager \
@@ -34,8 +33,7 @@ RUN pip install --upgrade pip && \
     jupyterlab-drawio \ 
     jupyterlab-plotly \
     @bokeh/jupyter_bokeh \
-    @jupyterlab/git \
-    jupyterlab-spreadsheet 
+    @jupyterlab/git
 
 COPY settings/settings.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/settings.sh
