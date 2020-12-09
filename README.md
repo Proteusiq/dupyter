@@ -3,6 +3,9 @@
 
 Reproducible Jupyter environment for ML, data science, engineering, and the sciences
 
+## The Why
+I am good at breaking my Python environments. This is the nature of ML and data scientists. We break to make things. Dupyter is made to be broken. It is made to be restored(make) back again fast. It allows you to safely install whatever packages you need for experimenting, analyzing, prototyping, and visualization. What it does is make the base easier to go back to. You do not have to start from the beginning every time. 
+
 ## Getting Started
 Clone. Run. Easy.
 ```bash
