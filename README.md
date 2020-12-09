@@ -3,6 +3,13 @@
 
 Reproducible Jupyter environment for ML, data science, engineering, and the sciences
 
+
+## 42
+
+We can add Python packages, Jupyter Lab extensions, and Linux packages at run time. Python libraries in `projects/requirments.txt`, would be installed via `pip`, Jupyter Lab extension in `projects/extensions.txt` via `npm`, and 'apt ` install packages from `projects/packages.txt`.
+
+Example: In requirements.txt, we have added `httpx` and in packages.txt, `telnet`. These requirements will be installed at run time. Try open and paste `telnet towel.blinkenlights.nl` on the terminal after starting dupyter. 
+
 ## Machine Learning Libraries
 - numpy -- the heart of scientific computing in Python
 - scipy -- collection of tools for mathematics, science, and engineering
