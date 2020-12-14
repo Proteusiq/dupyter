@@ -16,7 +16,7 @@ Clone. Run. Easy.
 git clone https://github.com/Proteusiq/dupyter.git && cd dupyter
 docker-compose up
 ```
-::Note:: The first build will take a while. Go and grab a cup of coffee.
+::Note:: The first build will take a while. Go and grab a cup of coffee. Window and Mac's Docker Desktop users are required to allow volume mounting. 
 
 Default JupyterLab password is `jupyterlabpwd`. You can change it by editing notebook.env. Rebuild, `docker-compose build`, for the new changes to take effect.
 
