@@ -3,3 +3,7 @@ watermark
 protobuf
 transformers[torch]
 sentencepiece
+
+# Data clearning needed in Pipelines
+spacy[lookups]==2.3.2
+https://github.com/explosion/spacy-models/releases/download/da_core_news_sm-2.3.0/da_core_news_sm-2.3.0.tar.gz
