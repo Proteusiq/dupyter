@@ -16,9 +16,9 @@ Clone. Run. Easy.
 git clone https://github.com/Proteusiq/dupyter.git && cd dupyter
 docker-compose up
 ```
-::Note:: The first build will take a while. Go and grab a cup of coffee.
+::Note:: The first build will take a while. Go and grab a cup of coffee. Window and Mac's Docker Desktop users are required to allow volume mounting. 
 
-Default JupyterLab Password in `jupyterlabpwd`. You can change it by editing notebook.env. Rebuild, `docker-compose build`, for the new changes to take effect.
+Default JupyterLab password is `jupyterlabpwd`. You can change it by editing notebook.env. Rebuild, `docker-compose build`, for the new changes to take effect.
 
 Jupyter lab will be running on localhost, port 8888: `http://localhost:8888/lab?`. You can change the port if 8888 is not
 available. Open `docker-compose.yaml` and change port. For example, `9004:8888`, will forward Jupyter Lab service to `http://localhost:9004/lab?`
